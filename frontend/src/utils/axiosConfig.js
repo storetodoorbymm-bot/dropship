@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://dropship-2.onrender.com/"
+  baseURL: "https://storetodoor.onrender.com/"
 });
 
 instance.interceptors.request.use((config) => {
@@ -15,4 +15,5 @@ instance.interceptors.request.use((config) => {
 });
 
 export default instance;
+
 
